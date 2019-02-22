@@ -1,0 +1,5 @@
+profile: service
+defaultPackage: point.b.ms
+---
+testFramework: junit
+sourceLanguage: java

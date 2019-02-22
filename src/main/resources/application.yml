@@ -1,0 +1,13 @@
+---
+micronaut:
+    application:
+        name: point-b-ms
+    server:
+        port: 8081
+
+---
+consul:
+  client:
+    registration:
+      enabled: false
+    #defaultZone: "${CONSUL_HOST:localhost}:${CONSUL_PORT:8500}"
